@@ -1,0 +1,12 @@
+{
+    "domain": "openwrt",
+    "name": "OpenWRT (ssh)",
+    "codeowners": ["@Bliss161"],
+    "config_flow": true,
+    "documentation": "https://github.com/Bliss161/HACS-OpenWRT-SSH",
+    "integration_type": "hub",
+    "iot_class": "local_polling",
+    "loggers": ["aioasuswrt", "asyncssh"],
+    "requirements": ["aioasuswrt==1.4.0"],
+    "version": "0.1.0"
+  }
